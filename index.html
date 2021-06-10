@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Covid 19 Tracker</title>
+  </head>
+  <body>
+    <marquee behavior="" direction="rtl" class="note"
+      >ENTER THE STANDARD COUNTRY NAME TO GET ACCURATE RESULTS</marquee
+    >
+    <h1>Covid 19</h1>
+    <p>Get the <span>covid 19</span> data from any Country.....</p>
+    <div class="main">
+      <div class="container">
+        <div class="search">
+          <form id="form">
+            <input
+              type="text"
+              placeholder="Enter the country Name..."
+              id="search"
+            />
+          </form>
+        </div>
+        <div class="info"></div>
+        <div class="boxs"></div>
+      </div>
+    </div>
+    <p class="msg">AFTER ENTERING THE COUNTRY NAME PRESS <span>ENTER</span></p>
+    <h5><span>M</span> -> Millions</h5>
+    <div class="hidden" id="accurate">
+      <h3 class="res recovry"></h3>
+      <h3 class="res conformed"></h3>
+      <h3 class="res deaths"></h3>
+      <p class="updated"></p>
+    </div>
+    <footer class="empty"></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
